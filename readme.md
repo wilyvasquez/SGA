@@ -13,6 +13,7 @@ A continuación se describen algunas recomendaciones.
 * Tener instalado **bower**.
 * Tener instalado un **servidor web de plataforma**.
 * Tener instalado un editor de texto.
+* Tener instalado un servidor apache (Xampp)
 
 ### Comandos básicos
 
