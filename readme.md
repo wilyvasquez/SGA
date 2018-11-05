@@ -1,6 +1,6 @@
 # SGA
 
-Soda es un software que facilita la administración de las corridas de transportes públicos.
+SGA es un software que facilita la administración de las corridas de transportes públicos.
 
 ## Inicio
 
