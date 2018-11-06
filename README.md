@@ -24,9 +24,9 @@ Actualizar assets, Los paquetes quedan instalados en la siguiente ruta ```bower_
 bower update <package>
 ```
 ### Ruta
-
+```
 localhost/SGA
-
+```
 ## Construido con
 * [Codeigniter](https://codeigniter.com) - Framework php.
 * [bower](https://bower.io) - Package manager.
