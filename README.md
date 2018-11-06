@@ -18,17 +18,14 @@ A continuación se describen algunas recomendaciones.
 
 ### Comandos básicos
 
-Instalar paquetes, Los paquetes quedan instalados en la siguiente ruta ```bower_components/```.
+Actualizar assets, Los paquetes quedan instalados en la siguiente ruta ```bower_components/```.
 
 ```
-bower install <package>
+bower update <package>
 ```
+### Ruta
 
-Descargar los paquetes de bower.
-
-```
-bower install
-```
+localhost/SGA
 
 ## Construido con
 * [Codeigniter](https://codeigniter.com) - Framework php.
