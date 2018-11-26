@@ -54,5 +54,11 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 /*rutas creditos*/
-$route['login']  = 'LoginCtrl/login';
-$route['inicio'] = 'AdminCtrl/index';
+$route['login']      = 'LoginCtrl/login';
+$route['inicio']     = 'AdminCtrl/usuarios';
+$route['estaciones'] = 'AdminCtrl/estaciones';
+$route['transporte'] = 'AdminCtrl/transporte';
+$route['chofer']     = 'AdminCtrl/choferes';
+$route['corridas']   = 'AdminCtrl/corridas';
+$route['perfil']     = 'AdminCtrl/perfil';
+$route['paqueteria'] = 'AdminCtrl/paqueteria';
