@@ -1,3 +1,25 @@
+      <style type="text/css">
+        .contenedor{
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            width: 750px
+        }
+         
+        .texto-encima{
+            position: absolute;
+            top: 40px;
+            left: 270px;
+        }
+        td{
+          width: 85px;
+          height: 50px
+        }
+        .scroll{
+          overflow-x: scroll;
+            width: auto
+        }
+      </style>
       <!-- Vista de contenido de las corridas -->
       <div class="row">
         <div class="col-md-8">
@@ -10,23 +32,56 @@
               </dl>
             </div>            
             <div class="box-body">
-              <div class="col-md-2">
-                <p><strong>LEYENDAS</strong></p>
-                <div>
-                  <div class="disponible"> </div>
-                  <div class="text margenes"> Disponible</div>
+              <div class="row">
+                <div class="col-md-2">
+                  <p><strong>LEYENDAS</strong></p>
+                  <div>
+                    <div class="disponible"> </div>
+                    <div class="text margenes"> Disponible</div>
+                  </div>
+                  <div class="margen">
+                    <div class="ocupado"> </div>
+                    <div class="text margenes"> Ocupado</div>
+                  </div>
+                  <div class="margen">
+                    <div class="selectc"> </div>
+                    <div class="text margenes">Seleccionado</div>
+                  </div>
                 </div>
-                <div class="margen">
-                  <div class="ocupado"> </div>
-                  <div class="text margenes"> Ocupado</div>
+              </div><br>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="scroll">
+                    <div class="contenedor">
+                      <img src="<?= base_url() ?>assets/img/buss.png" width="700"><br><br><br>
+                      <!-- <div class="texto-encima">Texto</div> -->
+                      <table class="texto-encima">
+                        <tr>
+                          <td></td>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">2</td>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">3</td>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">4</td>
+                          <!-- <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">5</td> -->
+                        </tr>
+                         <tr>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">1</td>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">2</td>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">3</td>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">4</td>
+                          <!-- <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">5</td> -->
+                        </tr>
+                         <tr>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">1</td>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">2</td>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">3</td>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">4</td>
+                          <!-- <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">5</td> -->
+                        </tr>
+                      </table>
+                      <!-- <div class="centrado">Centrado</div> -->
+                    </div>                    
+                  </div>
                 </div>
-                <div class="margen">
-                  <div class="selectc"> </div>
-                  <div class="text margenes">Seleccionado</div>
-                </div>
-              </div>
-              <div class="col-md-10">
-                <img src="<?= base_url() ?>assets/img/carro.png" class="imagen">
               </div>
             </div>
             <div class="box-footer clearfix">
