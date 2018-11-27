@@ -64,116 +64,62 @@
           <!-- /.box-header -->
           <div class="box-body">
             <ul class="products-list product-list-in-box">
-              <div class="box-footer box-comments">
+              <div class="box-footer box-comments box-comentarios">
                 <div class="box-comment">                
-                  <div class="product-img">
-                    <span style="margin-left: 10px;"><i class="fa fa-2x fa-map-marker"></i></span>
+                  <div class="product-img box-icono">
+                    <span><i class="fa fa-2x fa-map-marker"></i></span>
                   </div>
                   <div class="comment-text">
                     <span class="username">
                       Heroica Ciudad de Tlaxiaco
                       <span class="text-muted pull-right">
-                    <div class="dropdown" style="margin-top: 10px">
-                      <a class="btn btn-box-tool dropdown-toggle" type="button" data-toggle="dropdown">
-                      <span style="color: #000">
-                        <i class="fa fa-ellipsis-v"></i>
-                        <i class="fa fa-ellipsis-v"></i>
+                        <div class="dropdown" style="margin-top: 10px">
+                          <a class="btn btn-box-tool dropdown-toggle" type="button" data-toggle="dropdown">
+                            <span class="color-icono">
+                              <i class="fa fa-ellipsis-v"></i>
+                              <i class="fa fa-ellipsis-v"></i>
+                            </span>
+                          </a>
+                          <ul class="dropdown-menu pull-right box-dropdown" aria-labelledby="dropdownMenu1">
+                            <li><a href="#" data-toggle="modal" data-target=".updateUser">Actualizar estacion</a></li>
+                            <li><a href="#" data-toggle="modal" data-target=".deleteUser">Eliminar estacion</a></li>
+                          </ul>
+                        </div>
                       </span>
-                    </a>
-                      <ul class="dropdown-menu pull-right" aria-labelledby="dropdownMenu1">
-                        <li><a href="#" data-toggle="modal" data-target=".updateUser">Actualizar estacion</a></li>
-                        <li><a href="#" data-toggle="modal" data-target=".deleteUser">Eliminar estacion</a></li>
-                      </ul>
-                    </div>
-                  </span>
                     </span>
                     Telefono: (953) 111 22 33
                   </div>
                 </div>
               </div>
-              <div class="box-footer box-comments" style="margin-top: 5px">
+              <!--  -->
+              <div class="box-footer box-comments box-comentarios">
                 <div class="box-comment">                
-                  <div class="product-img">
-                    <span style="margin-left: 10px;"><i class="fa fa-2x fa-map-marker"></i></span>
+                  <div class="product-img box-icono">
+                    <span><i class="fa fa-2x fa-map-marker"></i></span>
                   </div>
                   <div class="comment-text">
                     <span class="username">
-                      Oaxaca de Juarez
+                      Heroica Ciudad de Tlaxiaco
                       <span class="text-muted pull-right">
-                    <div class="dropdown" style="margin-top: 10px">
-                      <a class="btn btn-box-tool dropdown-toggle" type="button" data-toggle="dropdown">
-                      <span style="color: #000">
-                        <i class="fa fa-ellipsis-v"></i>
-                        <i class="fa fa-ellipsis-v"></i>
+                        <div class="dropdown" style="margin-top: 10px">
+                          <a class="btn btn-box-tool dropdown-toggle" type="button" data-toggle="dropdown">
+                            <span class="color-icono">
+                              <i class="fa fa-ellipsis-v"></i>
+                              <i class="fa fa-ellipsis-v"></i>
+                            </span>
+                          </a>
+                          <ul class="dropdown-menu pull-right box-dropdown" aria-labelledby="dropdownMenu1">
+                            <li><a href="#" data-toggle="modal" data-target=".updateUser">Actualizar estacion</a></li>
+                            <li><a href="#" data-toggle="modal" data-target=".deleteUser">Eliminar estacion</a></li>
+                          </ul>
+                        </div>
                       </span>
-                    </a>
-                      <ul class="dropdown-menu pull-right" aria-labelledby="dropdownMenu1">
-                        <li><a href="#" data-toggle="modal" data-target=".updateUser">Actualizar estacion</a></li>
-                        <li><a href="#" data-toggle="modal" data-target=".deleteUser">Eliminar estacion</a></li>
-                      </ul>
-                    </div>
-                  </span>
                     </span>
                     Telefono: (953) 111 22 33
                   </div>
                 </div>
               </div>
-              <!-- /.item -->
-              <div class="box-footer box-comments" style="margin-top: 5px">
-                <div class="box-comment">                
-                  <div class="product-img">
-                    <span style="margin-left: 10px;"><i class="fa fa-2x fa-map-marker"></i></span>
-                  </div>
-                  <div class="comment-text">
-                    <span class="username">
-                      Santiago Yolomecalt
-                      <span class="text-muted pull-right">
-                    <div class="dropdown" style="margin-top: 10px">
-                      <a class="btn btn-box-tool dropdown-toggle" type="button" data-toggle="dropdown">
-                      <span style="color: #000">
-                        <i class="fa fa-ellipsis-v"></i>
-                        <i class="fa fa-ellipsis-v"></i>
-                      </span>
-                    </a>
-                      <ul class="dropdown-menu pull-right" aria-labelledby="dropdownMenu1">
-                        <li><a href="#" data-toggle="modal" data-target=".updateUser">Actualizar estacion</a></li>
-                        <li><a href="#" data-toggle="modal" data-target=".deleteUser">Eliminar estacion</a></li>
-                      </ul>
-                    </div>
-                  </span>
-                    </span>
-                    Telefono: (953) 111 22 33
-                  </div>
-                </div>
-              </div>
-              <!-- /.item -->
-              <div class="box-footer box-comments" style="margin-top: 5px">
-                <div class="box-comment">                
-                  <div class="product-img">
-                    <span style="margin-left: 10px;"><i class="fa fa-2x fa-map-marker"></i></span>
-                  </div>
-                  <div class="comment-text">
-                    <span class="username">
-                      Teposcolula
-                      <span class="text-muted pull-right">
-                    <div class="dropdown" style="margin-top: 10px">
-                      <a class="btn btn-box-tool dropdown-toggle" type="button" data-toggle="dropdown">
-                      <span style="color: #000">
-                        <i class="fa fa-ellipsis-v"></i>
-                        <i class="fa fa-ellipsis-v"></i>
-                      </span>
-                    </a>
-                      <ul class="dropdown-menu pull-right" aria-labelledby="dropdownMenu1">
-                        <li><a href="#" data-toggle="modal" data-target=".updateUser">Actualizar estacion</a></li>
-                        <li><a href="#" data-toggle="modal" data-target=".deleteUser">Eliminar estacion</a></li>
-                      </ul>
-                    </div>
-                  </span>
-                    </span>
-                    Telefono: (953) 111 22 33
-                  </div>
-                </div>
-              </div>
+              <!--  -->
             </ul>
           </div>
           <!-- /.box-body -->

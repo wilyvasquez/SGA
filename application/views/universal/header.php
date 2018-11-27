@@ -20,6 +20,8 @@
   <link rel="stylesheet" href="<?= base_url() ?>/bower_components/admin-lte/dist/css/skins/_all-skins.min.css">
   <!-- DataTables -->
   <link rel="stylesheet" href="<?= base_url() ?>bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="<?= base_url() ?>assets/css/style.css">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>

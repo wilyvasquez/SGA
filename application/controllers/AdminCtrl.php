@@ -50,6 +50,7 @@ class AdminCtrl extends CI_Controller {
 	public function corridas()
 	{
 		$data["corridas"]  = "active";
+		$data["transito"]  = "active";
 		$data["title"]     = "Registros";
 		$data["subtitle"]  = "Registros de estaciones";
 		$data["contenido"] = "admin/corridas/corridas";

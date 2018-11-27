@@ -1,6 +1,17 @@
-.centrado{
-	margin:10px auto;
-	display:block;
-	width:110px;
-    height:110px;
+.box-comentarios{
+	border-radius: 10px;
+	box-shadow: -1px 1px 2px 0px rgba(0,0,0,0.75);
+	margin-top: 10px
+}
+.box-icono{
+	margin-left:8px;
+	margin-top: 6px
+}
+.box-dropdown{
+	background-color: #D7D5D5;
+	border: 0.5px solid #CBC8C8;
+	border-radius: 5px
+}
+.color-icono{
+	color: #000
 }

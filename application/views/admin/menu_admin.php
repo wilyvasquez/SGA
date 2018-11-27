@@ -33,11 +33,23 @@
       <i class="fa fa-credit-card"></i> <span>Choferes</span>
     </a>
   </li>
-  <li class="<?php if(!empty($corridas)){ echo $corridas; } ?>">
+  <li class="treeview <?php if(!empty($corridas)){ echo $corridas; } ?>">
+    <a href="#">
+      <i class="fa fa-road"></i> <span>Corridas</span>
+      <span class="pull-right-container">
+          <i class="fa fa-angle-left pull-right"></i>
+      </span>
+    </a>
+    <ul class="treeview-menu">
+      <li class="<?php if(!empty($transito)){ echo $transito; } ?>"><a href="<?= base_url() ?>corridas"><i class="fa fa-circle-o"></i> En espera</a></li>
+      <li class="<?php if(!empty($historial)){ echo $historial; } ?>"><a href="<?= base_url() ?>corridas"><i class="fa fa-circle-o"></i> Realizadas</a></li>
+    </ul>
+  </li>
+  <!-- <li class="<?php if(!empty($corridas)){ echo $corridas; } ?>">
     <a href="<?= base_url() ?>corridas">
       <i class="fa fa-clock-o"></i> <span>Corridas</span>
     </a>
-  </li>
+  </li> -->
   <li class="<?php if(!empty($paquetes)){ echo $paquetes; } ?>">
     <a href="<?= base_url() ?>paqueteria">
       <i class="fa fa-archive"></i> <span>Paqueteria</span>
