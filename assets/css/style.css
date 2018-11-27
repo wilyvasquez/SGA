@@ -15,3 +15,85 @@
 .color-icono{
 	color: #000
 }
+/**
+ * diseño de los asientos dentro del camion
+ */
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 750px
+}
+ /*asientos centrales*/
+.texto-encima{
+    position: absolute;
+    top: 105px;
+    left: 250px;
+}
+/*asientos de lado del conductor*/
+.asiento-front{
+    position: absolute;
+    top: 35px;
+    left: 180px;
+}
+/*asientos del lado de la puerta*/
+.asiento-left{
+  position: absolute;
+  top: 35px;
+  left: 330px; 
+}
+/*asientos traseros 4*/
+.asiento-atras{
+  position: absolute;
+  top: 30px;
+  left: 565px; 
+}
+/*tamaño de los td en las tablas*/
+td{
+  width: 80px;
+  height: 40px
+}
+.scroll{
+  overflow-x: auto;
+    width: auto
+}
+/*fin del diseño de los asientos*/
+/**
+ * comienza diseño del marcador de señalamientos
+ */
+.disponible {
+ width: 20px; 
+ height: 20px; 
+ background: #419032;     
+ float: left;
+ border-radius: 4px;
+ box-shadow: -1px 1px 2px 0px rgba(0,0,0,0.75);
+}
+.ocupado {
+ width: 20px; 
+ height: 20px; 
+ background: #ED402E;
+ float: left;
+ border-radius: 4px;
+ box-shadow: -1px 1px 2px 0px rgba(0,0,0,0.75);
+},
+.text {      
+  float: left;
+}
+.margenes{
+  margin-left: 30px;
+}
+.margen{
+  margin-top: 5px
+}
+.selectc {
+ width: 20px; 
+ height: 20px; 
+ background: #D4BE33;
+ float: left;
+ border-radius: 4px;
+ box-shadow: -1px 1px 2px 0px rgba(0,0,0,0.75);
+}
+/**
+ * termina diseño de señalamientos
+ */

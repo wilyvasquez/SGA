@@ -1,25 +1,3 @@
-      <style type="text/css">
-        .contenedor{
-            position: relative;
-            display: inline-block;
-            text-align: center;
-            width: 750px
-        }
-         
-        .texto-encima{
-            position: absolute;
-            top: 40px;
-            left: 270px;
-        }
-        td{
-          width: 85px;
-          height: 50px
-        }
-        .scroll{
-          overflow-x: scroll;
-            width: auto
-        }
-      </style>
       <!-- Vista de contenido de las corridas -->
       <div class="row">
         <div class="col-md-8">
@@ -54,38 +32,61 @@
                   <div class="scroll">
                     <div class="contenedor">
                       <img src="<?= base_url() ?>assets/img/buss.png" width="700"><br><br><br>
-                      <!-- <div class="texto-encima">Texto</div> -->
-                      <table class="texto-encima">
+                      <!-- Asientos del lado del conductor -->
+                      <table class="asiento-front">
                         <tr>
-                          <td></td>
                           <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">2</td>
-                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">3</td>
-                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">4</td>
-                          <!-- <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">5</td> -->
                         </tr>
-                         <tr>
+                        <tr>
                           <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">1</td>
-                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">2</td>
-                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">3</td>
-                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">4</td>
-                          <!-- <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">5</td> -->
-                        </tr>
-                         <tr>
-                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">1</td>
-                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">2</td>
-                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">3</td>
-                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">4</td>
-                          <!-- <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">5</td> -->
                         </tr>
                       </table>
-                      <!-- <div class="centrado">Centrado</div> -->
+                      <!-- Asientos solos del lado de la puerta -->
+                      <table class="asiento-left">
+                        <tr>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">2</td>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">1</td>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">1</td>
+                        </tr>
+                      </table>
+                      <!-- asientos en pares -->
+                      <table class="texto-encima">
+                        <tr>
+                         <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">1</td>
+                         <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">2</td>
+                         <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">3</td>
+                         <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">4</td>
+                       </tr>
+                        <tr>
+                         <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">1</td>
+                         <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">2</td>
+                         <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">3</td>
+                         <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">4</td>
+                       </tr>
+                      </table>
+                      <!-- asientos traseros 4 -->
+                      <table class="asiento-atras">
+                        <tr>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">1</td>
+                        </tr>
+                        <tr>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">1</td>
+                        </tr>
+                        <tr>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">1</td>
+                        </tr>
+                        <tr>
+                          <td style="background: url('<?= base_url() ?>assets/img/asiento.jpg') no-repeat center center;background-size:50px">1</td>
+                        </tr>
+                      </table>
+
                     </div>                    
                   </div>
                 </div>
               </div>
             </div>
             <div class="box-footer clearfix">
-             <button type="button" class="btn btn-default pull-right">Salida</button>
+             <button type="button" class="btn btn-primary pull-right">Salida</button>
             </div>
           </div>
         </div>
