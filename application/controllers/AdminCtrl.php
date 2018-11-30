@@ -55,6 +55,9 @@ class AdminCtrl extends CI_Controller {
 		$data["subtitle"]  = "Registros de estaciones";
 		$data["contenido"] = "admin/corridas/corridas";
 		$data["menu"]      = "admin/menu_admin";
+		$data["bus"]	   = $this->load->view('admin/corridas/unidad',null,true);
+		$data["viajes"]	   = $this->load->view('admin/corridas/viajes',null,true);
+		$data["info"]	   = $this->load->view('admin/corridas/text-viajes',null,true);
 		$this->load->view('universal/plantilla',$data);
 	}
 

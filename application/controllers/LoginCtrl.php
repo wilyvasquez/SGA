@@ -17,4 +17,9 @@ class LoginCtrl extends CI_Controller {
 		$this->load->view("app/conexion");
 	}
 
+	public function prueba()
+	{
+		$this->load->view("app/conexion2");
+	}
+
 }

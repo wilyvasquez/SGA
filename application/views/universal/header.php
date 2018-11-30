@@ -6,7 +6,7 @@
   <title>SGA CODE</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <link rel="shortcut icon" sizes="57x57" href="<?= base_url() ?>assets/img/favicon.png">
+  <link rel="shortcut icon" sizes="57x57" href="<?= base_url() ?>assets/img/favicon.ico">
   <!-- Bootstrap 3.3.6 -->
   <link rel="stylesheet" href="<?= base_url() ?>bower_components/bootstrap/dist/css/bootstrap.min.css">
   <!-- Font Awesome -->

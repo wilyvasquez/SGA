@@ -133,7 +133,7 @@
     <!-- Incio de los modales -->
     <div>    
       <!-- Modal de estaciones para eliminar estacion -->
-      <div class="modal fade deleteUser" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal fade deleteUser" data-backdrop="static" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-body">
@@ -162,7 +162,7 @@
       </div>
       <!-- end modale -->
       <!-- MOdal de estaciones para actualizar estacion -->
-      <div class="modal fade updateUser" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal fade updateUser" data-backdrop="static" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-md">
           <div class="modal-content">
             <div class="modal-header">
